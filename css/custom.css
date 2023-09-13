@@ -161,7 +161,7 @@ i {
     font-weight: 500;
     font-size: 20px;
     line-height: 1;
-    padding: 35px 15px;
+    padding: 10px 15px;
     transition: .4s; }
     #navigration .nav-item .nav-link .fa-angle-down {
       color: #fff;
@@ -280,7 +280,7 @@ i {
 
 #navigration .get-quote {
   padding: 0 20px;
-  margin-top: 10px; }
+  margin-top: 0px; }
 
 .fixed-top {
   z-index: 5;

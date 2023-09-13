@@ -3032,13 +3032,17 @@ input[type="button"].btn-block {
 .tab-content > .active {
   display: block; }
 
-.navbar {
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0.5rem 1rem; }
+  .navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0 0 0% 0%; /* Rounded corners for the bottom left and bottom right */
+    height: 4rem; /* Corrected height value */
+    padding: 0.5rem 1rem;
+  }
+  
   .navbar .container,
   .navbar .container-fluid, .navbar .container-sm, .navbar .container-md, .navbar .container-lg, .navbar .container-xl {
     display: flex;
